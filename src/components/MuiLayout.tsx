@@ -1,9 +1,14 @@
-import { Box } from '@mui/material'
 import React from 'react'
+import { Box, Stack, Divider } from '@mui/material'
 
 const MuiLayout = () => {
   return (
-    <>
+    <Stack 
+        spacing={2}
+        direction="row" 
+        divider={<Divider flexItem orientation='vertical' />}
+        sx={{ border: "1px solid" }} 
+    >
         <Box 
             // component="span" 
             sx={{
@@ -28,7 +33,7 @@ const MuiLayout = () => {
         >
 
         </Box>
-    </>
+    </Stack>
   )
 }
 
