@@ -22,7 +22,7 @@ const MuiRating = () => {
             precision={0.5}
             highlightSelectedOnly 
             onChange={onRatingChange} 
-            icon={<Fav oriteIcon fontSize="inherit" color='error' />}
+            icon={<FavoriteIcon fontSize="inherit" color='error' />}
             emptyIcon={<FavoriteBorderIcon fontSize='inherit' />}
         /> 
     </Stack>
